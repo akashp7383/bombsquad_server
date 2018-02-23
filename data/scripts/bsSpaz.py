@@ -277,7 +277,8 @@ class SpazFactory(object):
         self.punchCooldown = bsInternal._getAccountMiscReadVal('rpc',400)
         self.punchCooldownGloves = bsInternal._getAccountMiscReadVal('rpcg',300)
         self.punchPowerScale = bsInternal._getAccountMiscReadVal('rpp',1.2)
-        self.punchPowerScaleGloves = bsInternal._getAccountMiscReadVal('rppg',1.4)
+        self.punchPowerScaleGloves = bsInternal._getAccountMiscReadVal('rppg',5.2)
+                                                                      
         self.maxShieldSpilloverDamage = bsInternal._getAccountMiscReadVal('rsms',500)
         
     def _getStyle(self,character):
